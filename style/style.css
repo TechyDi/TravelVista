@@ -1,0 +1,82 @@
+body {
+    background: #243010;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+}
+
+
+#hdr {
+    min-height: 220px;
+    padding-top: 3em;
+    padding-bottom: 0;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    
+    p{
+        padding-top: 4rem;
+    }
+}
+.dest{
+    background-color: #2A3C24;
+    width: 40%;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    border:none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.btn:hover{
+    background: #48780c;
+    border-radius: 5px;
+}
+
+.hdr-bg{
+    background: url(../image/pexels-te-lensfix-380994-1371360.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 250px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    margin: 0;
+}
+
+.Prices{
+    
+    background: #48780c;
+    min-height: 100px;
+}
+
+.Contact {
+    
+    background:#f4a406;
+    min-height: 50px;
+}
+
+footer{
+    min-height: 50px;
+    background: #cad593;
+    color: black;
+    line-height: 50px;
+}
+
